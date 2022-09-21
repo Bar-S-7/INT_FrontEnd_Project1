@@ -3,4 +3,4 @@ This is my first project in INT
 
 ## About
 
-This is my first frontend project.
+This is my first frontEnd project.
