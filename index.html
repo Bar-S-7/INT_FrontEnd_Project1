@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link   rel="stylesheet"    href="./header-style.css"/>
+    <link  rel="stylesheet" href="./gallery-style.css"/>
+	
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h2>European Capitals</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="social">
+                    <li><img src="./Facebook_logo1.svg" /></li>
+                    <li><img src="./Instagram-Icon1.png" /></li>
+                    <li><img src="./LinkedIn_logo.png" /></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" id="container">
+        <div class="col">
+                <h3>Amsterdam</h3>
+                <img src="./Amsterdam.jpg" />
+                <div class="location">Amsterdam is the capital and most populous city of the Netherlands; with a population of 907,976 within the city proper, 1,558,755 in the urban area and 2,480,394 in the metropolitan area. Found within the Dutch province of North Holland, Amsterdam is colloquially referred to as the "Venice of the North", due to the large number of canals which form a UNESCO World Heritage Site.</div>
+        </div>
+        <div class="col">
+            
+                <h3>Berlin</h3>
+                <img src="./Berlin.jpg" />
+                <div class="location">Berlin is the capital and largest city of Germany by both area and population. Its 3.7 million inhabitants make it the European Union's most populous city, according to population within city limits.</div>
+        </div>
+        <div class="col">
+          
+                <h3>Brussels</h3>
+                <img src="./Brussels.jpg" />
+                <div class="location">Brussels, officially the Brussels-Capital Region, is a region of Belgium comprising 19 municipalities, including the City of Brussels, which is the capital of Belgium. The Brussels-Capital Region is located in the central portion of the country and is a part of both the French Community of Belgium and the Flemish Community, but is separate from the Flemish Region (within which it forms an enclave) and the Walloon Region.Brussels is the most densely populated and the richest region in Belgium in terms of GDP per capita. It covers 162 km, a relatively small area compared to the two other regions, and has a population of over 1.2 million.</div>
+            
+        </div>
+        <div class="col">
+            
+                <h3>London</h3>
+                <img src="./London.jpg" />
+                <div class="location">London is the capital and largest city of England and the United Kingdom, with a population of just over 9 million. It stands on the River Thames in south-east England at the head of a 50-mile (80 km) estuary down to the North Sea, and has been a major settlement for two millennia. The City of London, its ancient core and financial centre, was founded by the Romans as Londinium and retains boundaries close to its medieval ones.</div>
+            
+        </div>
+        <div class="col">
+            
+                <h3>Paris</h3>
+                <img src="./Paris.jpg" />
+                <div class="location">Paris is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km, making it the 34th most densely populated city in the world in 2020. Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, science, and arts, and has sometimes been referred to as the capital of the world or "the City of Light".</div>
+            
+        </div>
+        <div class="col">
+            
+                <h3>Madrid</h3>
+                <img src="./Madrid.JPG" />
+                <div class="location">Madrid is the capital and most populous city of Spain. The city has almost 3.4 million inhabitants and a metropolitan area population of approximately 6.7 million. It is the second-largest city in the European Union (EU), and its monocentric metropolitan area is the second-largest in the EU. The municipality covers 604.3 km geographical area.</div>
+            
+        </div>
+    </div>
+	<form id="addG">
+		<div>
+			<label for="p-name">Location Name</label><br>
+			<input type="text" id="p-name" name="Location name" required/>
+		</div>
+	
+		<div>
+			<label for="p-text">Location Description</label><br>
+			<input type="text" id="p-text" name="email" required/>
+		</div>
+
+		<div>
+			<label for="p-text">Upload Image</label><br>
+			<input type="text" id="myImage" name="image" required/>
+		</div>
+	
+		<input type="submit" value="Add" />
+	</form>
+
+	<script src="./script.js"></script>
+</body>
+</html>
