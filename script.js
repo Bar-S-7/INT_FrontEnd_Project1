@@ -1,4 +1,4 @@
-console.log("hello");
+
 let form = document.getElementById("addG");
 
 form.addEventListener("submit", addCell);
